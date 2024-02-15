@@ -6,7 +6,7 @@
   "description": "Module 100 Overview",
   "videoURL": "",
   "lastEdited": "2023-12-07",
-  "author": "James",
+  "author": "James"
 }
 ---
 

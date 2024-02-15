@@ -6,7 +6,7 @@
   "description": "Add a Component to the Mesh PBL Student Library",
   "videoURL": "",
   "lastEdited": "2024-02-06",
-  "author": "James",
+  "author": "James"
 }
 ---
 

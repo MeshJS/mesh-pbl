@@ -6,7 +6,7 @@
   "description": "Commit to an Assignment in Andamio",
   "videoURL": "",
   "lastEdited": "",
-  "author": "",
+  "author": ""
 }
 ---
 
