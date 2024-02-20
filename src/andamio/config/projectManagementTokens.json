@@ -1,10 +1,10 @@
 {
-  "contributorPolicyID": "fa4758733ad1b6b15e797ff19e57769ff874c3bfe001b04a6682f1e4",
-  "adminAsset": "dcb8862f38968b30b5499458d45dc2055e269ba469f6b3a73fd73922616e64616d696f2d70626c2d61646d696e312d31",
-  "adminPolicyID": "dcb8862f38968b30b5499458d45dc2055e269ba469f6b3a73fd73922",
-  "adminTokenName": "616e64616d696f2d70626c2d61646d696e312d31",
-  "projectAsset": "fb45417ab92a155da3b31a8928c873eb9fd36c62184c736f189d334c7447696d62616c",
-  "projectTokenPolicyID": "fb45417ab92a155da3b31a8928c873eb9fd36c62184c736f189d334c",
-  "projectTokenName": "7447696d62616c",
-  "contractTokenPolicyID": "ed1a41f8806762b8f6b89109891ee430ca43a5640d544aa7069fe17b"
+  "contributorPolicyID": "273099fa45fdf1f9537cfd6ec75084acc40ae305495900668dc97d58",
+  "adminAsset": "",
+  "adminPolicyID": "af5f33af482eb031cf87bbbedf14b3df7af74ffbc2d5c9a11d21bc8d",
+  "adminTokenName": "",
+  "projectAsset": "2b0a04a7b60132b1805b296c7fcb3b217ff14413991bf76f72663c3067696d62616c",
+  "projectTokenPolicyID": "2b0a04a7b60132b1805b296c7fcb3b217ff14413991bf76f72663c30",
+  "projectTokenName": "67696d62616c",
+  "contractTokenPolicyID": "d4153bf627ae4df99828d87914ef1253b26dcd01765f92e48c8880f4"
 }

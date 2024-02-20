@@ -1,7 +1,12 @@
 import { AndamioConfig, CourseManagementConfig, ProjectManagementConfig } from "@andamiojs/core";
 
 // Project Management
-// Not implemented
+import treasury from "../cardano/plutus/treasury.json"
+import contributorReference from "../cardano/plutus/contributorReference.json"
+import contributorMintingReference from "../cardano/plutus/contributorMintingReference.json"
+import contractTokenMintingReference from "../cardano/plutus/contractTokenMintingReference.json"
+import escrowReviewer1 from "../cardano/plutus/escrowReviewer1.json"
+
 
 // Course Management
 import assignment from "../cardano/plutus/assignment.json"
@@ -12,8 +17,11 @@ import moduleMintingReference from "../cardano/plutus/moduleMintingReference.jso
 
 // Tokens
 import courseManagementTokens from './courseManagementTokens.json'
+import projectManagementTokens from './projectManagementTokens.json'
 
-export const andamioConfig: AndamioConfig<CourseManagementConfig> = {
+
+export const andamioConfig: AndamioConfig<CourseManagementConfig & ProjectManagementConfig> = {
+
   title: "Mesh PBL",
   baseAddress: "",
   enterpriseAddress: "",
@@ -21,7 +29,7 @@ export const andamioConfig: AndamioConfig<CourseManagementConfig> = {
   // at the moment, each contract has a different reference UTxO Address - see individual contract configs
   // referenceScriptAddress: '',
   metadataKey: "",
-  network: "0",
+  network: "1",
   config: {
     assignment: assignment,
     courseReference: courseReference,
@@ -35,5 +43,11 @@ export const andamioConfig: AndamioConfig<CourseManagementConfig> = {
       courseCreatorNFTURL: "ipfs://bafkreidly4pye2wiklnxohb76bxeewde3xa66mwms5a7saienzzcccx3wi",
       courseDeciderNFTURL: "ipfs://bafkreiasvwd3fcmrqpc5mmjhci2rmjg5hptgs46nf7xmmmhv7oz66xkfmu",
     },
+    contributorReference: contributorReference,
+    escrows: [escrowReviewer1],
+    treasury: treasury,
+    contractTokenMintingReference: contractTokenMintingReference,
+    contributorMintingReference: contributorMintingReference,
+    projectManagementTokens: projectManagementTokens,
   },
 };
