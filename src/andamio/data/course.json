@@ -24,29 +24,33 @@
         },
         {
             "id": "101",
-            "title": "Getting Started With MeshJS",
+            "title": "Working with Wallet",
             "slts": [
                 {
                     "id": "101.1",
-                    "slt": "I can integrate Mesh into a new Project."
+                    "slt": "I can design an application on Cardano by understanding what Mesh does and does not do."
                 },
                 {
                     "id": "101.2",
-                    "slt": "I can use Mesh to connect a CIP-30 compliant wallet to a decentralized application."
+                    "slt": "I can integrate Mesh into a new Project."
                 },
                 {
                     "id": "101.3",
-                    "slt": "I can see information about my wallet in my web browser."
+                    "slt": "I can use Mesh to connect a CIP-30 compliant wallet to a decentralized application."
                 },
                 {
                     "id": "101.4",
+                    "slt": "I can see information about my wallet in my web browser."
+                },
+                {
+                    "id": "101.5",
                     "slt": "I can use Mesh React hooks to get wallet's information."
                 }
             ]
         },
         {
             "id": "102",
-            "title": "Mesh Design Patterns",
+            "title": "Mesh Utilities",
             "slts": [
                 {
                     "id": "102.1",
@@ -55,10 +59,6 @@
                 {
                     "id": "102.2",
                     "slt": "I can use Mesh Resolvers to convert data so that it is useful in application."
-                },
-                {
-                    "id": "102.3",
-                    "slt": "I can design an application on Cardano by understanding what Mesh does and does not do."
                 }
             ]
         },
