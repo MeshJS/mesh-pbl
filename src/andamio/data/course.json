@@ -24,7 +24,7 @@
         },
         {
             "id": "101",
-            "title": "Working with Wallet",
+            "title": "Working with the Browser Wallet",
             "slts": [
                 {
                     "id": "101.1",
@@ -32,7 +32,7 @@
                 },
                 {
                     "id": "101.2",
-                    "slt": "I can integrate Mesh into a new Project."
+                    "slt": "I can integrate Mesh into a new project."
                 },
                 {
                     "id": "101.3",
@@ -44,7 +44,7 @@
                 },
                 {
                     "id": "101.5",
-                    "slt": "I can use Mesh React hooks to get wallet's information."
+                    "slt": "I can use Mesh React hooks to get information about my wallet."
                 }
             ]
         },
@@ -54,25 +54,25 @@
             "slts": [
                 {
                     "id": "102.1",
-                    "slt": "I can use a Mesh Providers to get information about the blockchain."
+                    "slt": "I can use Mesh Providers to get information about the blockchain."
                 },
                 {
                     "id": "102.2",
-                    "slt": "I can use Mesh Resolvers to convert data so that it is useful in application."
+                    "slt": "I can use Mesh Resolvers to convert data so that it can be used in my application."
                 }
             ]
         },
         {
             "id": "200",
-            "title": "Building Transactions with Transactions Instance",
+            "title": "Building Transactions with the Transactions Instance",
             "slts": [
                 {
                     "id": "200.1",
-                    "slt": "I can build transaction to send lovelace"
+                    "slt": "I can build a transaction to send lovelace."
                 },
                 {
                     "id": "200.2",
-                    "slt": "I can build transaction to send tokens/assets"
+                    "slt": "I can build a transaction to send tokens/assets."
                 },
                 {
                     "id": "200.3",
@@ -84,7 +84,7 @@
                 },
                 {
                     "id": "200.5",
-                    "slt": "I can lock and unlock funds in a smart contract validator address."
+                    "slt": "I can lock and unlock funds at a smart contract validator address."
                 },
                 {
                     "id": "200.6",
@@ -120,11 +120,11 @@
             "slts": [
                 {
                     "id": "203.1",
-                    "slt": "I can build transaction to send lovelace"
+                    "slt": "I can build a transaction to send lovelace."
                 },
                 {
                     "id": "203.2",
-                    "slt": "I can build transaction to send tokens/assets"
+                    "slt": "I can build a transaction to send tokens/assets."
                 },
                 {
                     "id": "203.3",
@@ -162,7 +162,7 @@
                 },
                 {
                     "id": "204.3",
-                    "slt": "I can build common invalid transactions, such as required signers, invalid dataum, inbalance transaction, and spent UTXOs."
+                    "slt": "I can build common invalid transactions, such as required signers, invalid datum, unbalanced transactions, and spent UTXOs."
                 }
             ]
         },
@@ -176,11 +176,11 @@
                 },
                 {
                     "id": "300.2",
-                    "slt": "I can describe precisely what error I am facing with Mesh with ways to reproduce."
+                    "slt": "I can precisely describe the error that I am facing with Mesh, including how to reproduce them."
                 },
                 {
                     "id": "300.3",
-                    "slt": "I can add on the existing issue / create a new issue on Github for potential bugs."
+                    "slt": "I can add to the existing issue or create a new issue on Github for potential bugs."
                 },
                 {
                     "id": "300.4",
