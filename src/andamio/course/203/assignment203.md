@@ -12,9 +12,9 @@
 
 ## Assignment Overview
 
-In this Assignment, you will build your application with transactions built from the `MeshTxBuilder` instance learned in this module.
+In this Assignment, you will build complex transactions using lower level APIs from the `MeshTxBuilder` instance learned in this module.
 
-## Assignment 101
+## Assignment 203
 
 ### Important Stuff: Complex Transaction - Unlock Assets & Mint
 
