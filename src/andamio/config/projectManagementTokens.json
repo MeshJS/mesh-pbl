@@ -1,10 +1,10 @@
 {
-  "contributorPolicyID": "273099fa45fdf1f9537cfd6ec75084acc40ae305495900668dc97d58",
-  "adminAsset": "",
+  "contributorPolicyID": "3c252b4a238f4696f7bf01273b37009fcf41f88e533942b216f081c1",
+  "adminAsset": "af5f33af482eb031cf87bbbedf14b3df7af74ffbc2d5c9a11d21bc8d6d6573682d70626c2d61646d696e2d74312d3031",
   "adminPolicyID": "af5f33af482eb031cf87bbbedf14b3df7af74ffbc2d5c9a11d21bc8d",
-  "adminTokenName": "",
+  "adminTokenName": "6d6573682d70626c2d61646d696e2d74312d3031",
   "projectAsset": "2b0a04a7b60132b1805b296c7fcb3b217ff14413991bf76f72663c3067696d62616c",
   "projectTokenPolicyID": "2b0a04a7b60132b1805b296c7fcb3b217ff14413991bf76f72663c30",
   "projectTokenName": "67696d62616c",
-  "contractTokenPolicyID": "d4153bf627ae4df99828d87914ef1253b26dcd01765f92e48c8880f4"
+  "contractTokenPolicyID": "f527c43f92008575be08099f2d9f16afad30adb55ae8edc372d0b7ad"
 }
