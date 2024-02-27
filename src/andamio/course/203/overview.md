@@ -5,14 +5,18 @@
   "type": "ModuleOverview",
   "description": "Building Transactions with Mesh Lower Level APIs - MeshTxBuilder",
   "videoURL": "",
-  "lastEdited": "24 Feb 2024",
-  "author": "Write: Leon, Review: Hinson"
+  "lastEdited": "27 Feb 2024",
+  "author": "Write: Leon, Review: Hinson",
 }
 ---
 
 ### Introduction to Module 203
 
 In this module, you will learn how to build the transaction similar to the ones in the [previous module](/course/module/200/overview), but utilizing the lower level transaction building method. Mesh provided `MeshTxBuilder`, a useful set of lower level APIs, allowing developers to build transactions with more flexibility and control.
+
+The `MeshTxBuilder` is designed to be a loosely-coupled component. On one hand it could be work nicely with existing MeshJS components such as fetcher and evaluator instances. On another hand, it could be a standalone component just to hand the necessary Cardano transaction building process without the need in knowing every technical details.
+
+With such design principle in mind, `MeshTxBuilder` would work nicely with both client side (application frontend) transaction and server side (application backend) building. In this module, we will cover both aspects.
 
 ### Resources
 
