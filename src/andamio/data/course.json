@@ -1,70 +1,192 @@
 {
-  "courseTitle": "Andamio Project-Based Learning",
-  "authors": ["Andamio Team"],
-  "modules": [
-    {
-      "id": "101",
-      "title": "How to Learn in Andamio",
-      "slts": [
+    "courseTitle": "Mesh PBL",
+    "authors": [
+        "Mesh and Gimbalabs"
+    ],
+    "modules": [
         {
-          "id": "101.1",
-          "slt": "I can mint an Andamio Learner Token."
+            "id": "100",
+            "title": "MeshJS Prerequisites",
+            "slts": [
+                {
+                    "id": "100.1",
+                    "slt": "I have a Cardano Browser wallet extension installed on my computer."
+                },
+                {
+                    "id": "100.2",
+                    "slt": "I have NodeJS installed on my local computer."
+                },
+                {
+                    "id": "100.3",
+                    "slt": "I am familiar with some essentials of the React framework, like components, props, and hooks."
+                }
+            ]
         },
         {
-          "id": "101.2",
-          "slt": "I can commit to an Assignment."
+            "id": "101",
+            "title": "Working with the Browser Wallet",
+            "slts": [
+                {
+                    "id": "101.1",
+                    "slt": "I can design an application on Cardano by understanding what Mesh does and does not do."
+                },
+                {
+                    "id": "101.2",
+                    "slt": "I can integrate Mesh into a new project."
+                },
+                {
+                    "id": "101.3",
+                    "slt": "I can use Mesh to connect a CIP-30 compliant wallet to a decentralized application."
+                },
+                {
+                    "id": "101.4",
+                    "slt": "I can see information about my wallet in my web browser."
+                },
+                {
+                    "id": "101.5",
+                    "slt": "I can use Mesh React hooks to get information about my wallet."
+                }
+            ]
         },
         {
-          "id": "101.3",
-          "slt": "I can see an on-chain record of my completed Assignment."
+            "id": "102",
+            "title": "Mesh Utilities",
+            "slts": [
+                {
+                    "id": "102.1",
+                    "slt": "I can use Mesh Providers to get information about the blockchain."
+                },
+                {
+                    "id": "102.2",
+                    "slt": "I can use Mesh Resolvers to convert data so that it can be used in my application."
+                }
+            ]
+        },
+        {
+            "id": "200",
+            "title": "Building Transactions with the Transactions Instance",
+            "slts": [
+                {
+                    "id": "200.1",
+                    "slt": "I can build a transaction to send lovelace."
+                },
+                {
+                    "id": "200.2",
+                    "slt": "I can build a transaction to send tokens/assets."
+                },
+                {
+                    "id": "200.3",
+                    "slt": "I can mint a new token using native scripts and plutus scripts."
+                },
+                {
+                    "id": "200.4",
+                    "slt": "I can build a valid multi-signature transaction."
+                },
+                {
+                    "id": "200.5",
+                    "slt": "I can lock and unlock funds at a smart contract validator address."
+                },
+                {
+                    "id": "200.6",
+                    "slt": "I can build an app component that allows users to stake to a specified stakepool."
+                },
+                {
+                    "id": "200.7",
+                    "slt": "I can build an app component that allows users to sign verified messages."
+                }
+            ]
+        },
+        {
+            "id": "201",
+            "title": "Mesh for Application Backend",
+            "slts": [
+                {
+                    "id": "201.1",
+                    "slt": "I can set up a Mesh App Wallet instance."
+                },
+                {
+                    "id": "201.2",
+                    "slt": "I can build a service that performs automatic transaction building, signing, and submission."
+                },
+                {
+                    "id": "201.3",
+                    "slt": "I can return a partially-signed transaction to frontend for collecting multiple signatures."
+                }
+            ]
+        },
+        {
+            "id": "203",
+            "title": "Building Transactions with Mesh Lower Level APIs - MeshTxBuilder",
+            "slts": [
+                {
+                    "id": "203.1",
+                    "slt": "I can build a transaction to send lovelace."
+                },
+                {
+                    "id": "203.2",
+                    "slt": "I can build a transaction to send tokens/assets."
+                },
+                {
+                    "id": "203.3",
+                    "slt": "I can mint a new token using native scripts and plutus scripts."
+                },
+                {
+                    "id": "203.4",
+                    "slt": "I can build a valid multi-signature transaction."
+                },
+                {
+                    "id": "203.5",
+                    "slt": "I can lock and unlock funds in a smart contract validator address."
+                },
+                {
+                    "id": "203.6",
+                    "slt": "I can build an app component that allows users to stake to a specified stakepool."
+                },
+                {
+                    "id": "203.7",
+                    "slt": "I can build an app component that allows users to sign verified messages."
+                }
+            ]
+        },
+        {
+            "id": "204",
+            "title": "Advanced Topics",
+            "slts": [
+                {
+                    "id": "204.1",
+                    "slt": "I can get parameterized scripts for a transaction dynamically at the time of transaction building."
+                },
+                {
+                    "id": "204.2",
+                    "slt": "I can build invalid transactions that exceed protocol limitations."
+                },
+                {
+                    "id": "204.3",
+                    "slt": "I can build common invalid transactions, such as required signers, invalid datum, unbalanced transactions, and spent UTXOs."
+                }
+            ]
+        },
+        {
+            "id": "300",
+            "title": "Contributing to Mesh",
+            "slts": [
+                {
+                    "id": "300.1",
+                    "slt": "I can navigate the Mesh source code repository for debugging."
+                },
+                {
+                    "id": "300.2",
+                    "slt": "I can precisely describe the error that I am facing with Mesh, including how to reproduce them."
+                },
+                {
+                    "id": "300.3",
+                    "slt": "I can add to the existing issue or create a new issue on Github for potential bugs."
+                },
+                {
+                    "id": "300.4",
+                    "slt": "I can fork Mesh's repository and create a pull request for potential improvements or fixes."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "102",
-      "title": "Markdown Content",
-      "slts": [
-        {
-          "id": "102.1",
-          "slt": "I can write Lessons with Markdown."
-        },
-        {
-          "id": "102.2",
-          "slt": "I can add changes to a public repository."
-        }
-      ]
-    },
-    {
-      "id": "201",
-      "title": "Make as many Modules as you need.",
-      "slts": [
-        {
-          "id": "201.1",
-          "slt": "I can write a Student Learning Target (SLT)."
-        },
-        {
-          "id": "201.2",
-          "slt": "I can write another SLT."
-        },
-        {
-          "id": "201.3",
-          "slt": "I can write as many SLTs as needed, for as many Modules as my Course requires."
-        }
-      ]
-    },
-    {
-      "id": "301",
-      "title": "Another Module",
-      "slts": [
-        {
-          "id": "301.1",
-          "slt": "I can create additional course modules."
-        },
-        {
-          "id": "301.2",
-          "slt": "I can use Module IDs to sequence course modules."
-        }
-      ]
-    }
-  ]
+    ]
 }
