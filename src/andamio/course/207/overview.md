@@ -1,9 +1,9 @@
 ---
 {
-  "title": "Module 202 Overview",
+  "title": "Module 207 Overview",
   "slt": [""],
   "type": "ModuleOverview",
-  "description": "Minting",
+  "description": "App Wallet",
   "videoURL": "",
   "lastEdited": "",
   "author": ""
@@ -12,8 +12,8 @@
 
 ```json
 {
-    "id": "202",
-    "title": "Minting",
+    "id": "207",
+    "title": "App Wallet",
     "slts": []
-},
+}
 ```

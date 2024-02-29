@@ -5,15 +5,15 @@
 }
 
 .coursePageContainer h1 {
-  @apply text-3xl my-5 font-bold text-secondary-content
+  @apply text-4xl my-5 pt-5 font-bold text-secondary-content border-t border-primary
 }
 
 .coursePageContainer h2 {
-  @apply text-2xl mt-5 mb-3 pb-3 border-b border-accent text-secondary-content tracking-wide
+  @apply text-3xl my-5 text-secondary-content underline
 }
 
 .coursePageContainer h3 {
-  @apply text-xl my-2 text-secondary-content tracking-wide
+  @apply text-2xl my-2 text-secondary-content
 }
 
 .coursePageContainer h4 {
@@ -37,7 +37,7 @@
 }
 
 .coursePageContainer a {
-  @apply font-semibold text-blue-800 hover:text-blue-700
+  @apply font-bold text-blue-900 hover:text-blue-700
 }
 
 .coursePageContainer table {
