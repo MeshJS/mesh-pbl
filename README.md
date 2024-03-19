@@ -1,28 +1,15 @@
-## Getting Started
+# Mesh Project Based Learning
 
-First, run the development server:
+## How to contribute
 
-```bash
-yarn dev
-```
+### For writers:
+1. Create a new branch that forks from `main`, with branch name convention `write: 100.1`
+2. Create required files and write contents in the created branch
+3. Create a Pull Request when done
 
-Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-To create [API routes](https://nextjs.org/docs/app/building-your-application/routing/router-handlers) add an `api/` directory to the `app/` directory with a `route.ts` file. For individual endpoints, create a subfolder in the `api` directory, like `api/hello/route.ts` would map to [http://localhost:3001/api/hello](http://localhost:3001/api/hello).
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### For reviewers:
+1. Browse the list of open PRs and self-assign to review the content
+2. Continue to review the content in the same branch
+3. If further review is needed, branch out as `review: 100.1`, create a PR once done
+4. If the content is good to go, merge the PR
+5. If the content needs to be revised, leave comments and request changes in the PR
