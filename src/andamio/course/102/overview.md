@@ -1,12 +1,12 @@
 ---
 {
-  "title": "Add Title",
-  "slt": ["102.1", "102.2", "102.3"],
+  "title": "Mesh Utilities",
+  "slt": ["102.1", "102.2"],
   "type": "ModuleOverview",
-  "description": "",
+  "description": "Mesh Utilities",
   "videoURL": "",
   "lastEdited": "",
-  "author": "Draft: James; Review: "
+  "author": ""
 }
 ---
 
