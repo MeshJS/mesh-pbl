@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Module 203 Assignment - MeshTxBuilder",
-  "slt": ["203.1", "203.2", "203.3", "203.4", "203.5", "203.6", "203.7"],
+  "title": "Module 202 Assignment - MeshTxBuilder",
+  "slt": ["202.1", "202.2", "202.3", "202.4", "202.5", "202.6", "202.7"],
   "type": "Assignment",
   "description": "Add a Component to the Mesh PBL Student Library",
   "videoURL": "",
@@ -14,7 +14,7 @@
 
 In this Assignment, you will build complex transactions using lower level APIs from the `MeshTxBuilder` instance learned in this module.
 
-## Assignment 203
+## Assignment 202
 
 ### Important Stuff: Complex Transaction - Unlock Assets & Mint
 
