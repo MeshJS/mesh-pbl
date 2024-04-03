@@ -1,9 +1,9 @@
 ---
 {
-  "title": "Module 205 Overview",
+  "title": "Module 300 Overview",
   "slt": [""],
   "type": "ModuleOverview",
-  "description": "Staking",
+  "description": "Contributing to Mesh",
   "videoURL": "",
   "lastEdited": "",
   "author": ""
@@ -12,8 +12,8 @@
 
 ```json
 {
-    "id": "205",
-    "title": "Staking",
+    "id": "204",
+    "title": "Contributing to Mesh",
     "slts": []
 },
 ```

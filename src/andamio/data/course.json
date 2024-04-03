@@ -115,53 +115,53 @@
             ]
         },
         {
-            "id": "203",
+            "id": "202",
             "title": "Building Transactions with Mesh Lower Level APIs - MeshTxBuilder",
             "slts": [
                 {
-                    "id": "203.1",
+                    "id": "202.1",
                     "slt": "I can build a transaction to send lovelace."
                 },
                 {
-                    "id": "203.2",
+                    "id": "202.2",
                     "slt": "I can build a transaction to send tokens/assets."
                 },
                 {
-                    "id": "203.3",
+                    "id": "202.3",
                     "slt": "I can mint a new token using native scripts and plutus scripts."
                 },
                 {
-                    "id": "203.4",
+                    "id": "202.4",
                     "slt": "I can build a valid multi-signature transaction."
                 },
                 {
-                    "id": "203.5",
+                    "id": "202.5",
                     "slt": "I can lock and unlock funds in a smart contract validator address."
                 },
                 {
-                    "id": "203.6",
-                    "slt": "I can build an app component that allows users to stake to a specified stake pool."
+                    "id": "202.6",
+                    "slt": "I can build an app component that allows users to stake to a specified stakepool."
                 },
                 {
-                    "id": "203.7",
+                    "id": "202.7",
                     "slt": "I can build an app component that allows users to sign verified messages."
                 }
             ]
         },
         {
-            "id": "204",
+            "id": "203",
             "title": "Advanced Topics",
             "slts": [
                 {
-                    "id": "204.1",
+                    "id": "203.1",
                     "slt": "I can get parameterized scripts for a transaction dynamically at the time of transaction building."
                 },
                 {
-                    "id": "204.2",
+                    "id": "203.2",
                     "slt": "I can build invalid transactions that exceed protocol limitations."
                 },
                 {
-                    "id": "204.3",
+                    "id": "203.3",
                     "slt": "I can build common invalid transactions, such as required signers, invalid datum, unbalanced transactions, and spent UTXOs."
                 }
             ]

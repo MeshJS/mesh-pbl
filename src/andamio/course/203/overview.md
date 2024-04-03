@@ -3,7 +3,7 @@
   "title": "Module 203 Overview - MeshTxBuilder",
   "slt": ["203.1", "203.2", "203.3", "203.4", "203.5", "203.6", "203.7"],
   "type": "ModuleOverview",
-  "description": "Building Transactions with Mesh Lower Level APIs - MeshTxBuilder",
+  "description": "Advanced Topics",
   "videoURL": "",
   "lastEdited": "27 Feb 2024",
   "author": "Write: Leon, Review: Hinson",
@@ -23,3 +23,4 @@ With such design principle in mind, `MeshTxBuilder` would work for both client s
 To learn more about the MeshTxBuilder, you can read the official documentation on all functions at [MeshTxBuilder - All API Endpoints](https://meshjs.dev/apis/transaction/builder) and examples at [MeshTxBuilder - Craft Customized Transactions](https://meshjs.dev/apis/transaction/builderExample).
 
 MeshTxBuilder is implemented based on the design of the lower level CLI commands in `cardano-cli`. You can learn more about it at [Cardano Docs](https://docs.cardano.org/development-guidelines/use-cli/).
+
