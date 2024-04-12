@@ -20,6 +20,7 @@ yarn.lock
 # misc
 .DS_Store
 *.pem
+.vscode
 
 # debug
 npm-debug.log*
@@ -34,3 +35,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+package-lock.json
+yarn.lock
+yarn.lock

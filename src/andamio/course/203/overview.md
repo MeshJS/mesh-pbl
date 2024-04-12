@@ -1,19 +1,12 @@
 ---
 {
-  "title": "Module 203 Overview",
-  "slt": [""],
+  "title": "Module 203 Overview - Advanced Topics",
+  "slt": [],
   "type": "ModuleOverview",
-  "description": "Multi-Sig",
+  "description": "Advanced Topics",
   "videoURL": "",
-  "lastEdited": "",
-  "author": ""
+  "author": "",
 }
 ---
 
-```json
-{
-    "id": "203",
-    "title": "Multi-Sig",
-    "slts": []
-},
-```
+### Introduction to Module 203

@@ -1,7 +1,7 @@
 ---
 {
   "title": "Build an App Component",
-  "slt": ["101.1", "101.2", "101.3", "101.4"],
+  "slt": ["101.1", "101.2", "101.3", "101.4", "101.5"],
   "type": "Assignment",
   "description": "Add a Component to the Mesh PBL Student Library",
   "videoURL": "",

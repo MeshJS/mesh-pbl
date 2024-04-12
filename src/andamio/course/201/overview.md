@@ -3,7 +3,7 @@
   "title": "Module 201 Overview",
   "slt": [""],
   "type": "ModuleOverview",
-  "description": "Transactions",
+  "description": "Mesh for Application Backend",
   "videoURL": "",
   "lastEdited": "",
   "author": ""
@@ -13,7 +13,7 @@
 ```json
 {
     "id": "201",
-    "title": "Transactions",
+    "title": "Mesh for Application Backend",
     "slts": []
 },
 ```
